@@ -25,8 +25,12 @@ $(".toggle_menu").click(function(){
 		$(".top_menu li").removeClass("fadeInUp animated");
 		$(".top_menu li").addClass("fadeOutDown animated");
 		$("h1, p, h3").removeClass("opacity");
+		setTimeout(function () {
+			$(".top_menu").removeClass("fadeOn")
+		}, 600);
 		} else {
 			$(".top_menu").fadeIn(600);
+			$(".top_menu").addClass("fadeOn")
 			$(".top_menu li").removeClass("fadeOutDown animated");
 			$(".top_menu li").addClass("fadeInUp animated");
 			$("h1, p, h3").addClass("opacity");

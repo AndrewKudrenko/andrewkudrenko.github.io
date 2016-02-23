@@ -115,6 +115,7 @@ section,
 
 .top_menu {
   /*display: flex !important;*/
+  /*opacity: 0;*/
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -436,6 +437,6 @@ h4, .modal-body p{
   font-size: 16px;
 }
 
-.top_menu .fadeIn{
+.fadeOn{
   display: flex !important;
 }
