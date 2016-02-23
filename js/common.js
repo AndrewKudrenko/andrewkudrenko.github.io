@@ -10,10 +10,6 @@ $(document).ready(function() {
 	})
 });
 
-$(window).load(function() { 
-	$(".oader_inner").fadeOut(); 
-	$(".loader").delay(400).fadeOut("slow"); 
-});
 
 $(".toggle_menu, .menu_item").click(function() {
   $(".sandwich").toggleClass("active");
@@ -44,7 +40,11 @@ $(document).ready( function(){
 
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
+  	$(".sandwich").removeClass("active");
 	$(".top_menu").fadeOut(600);
+	setTimeout(function () {
+		$(".top_menu").removeClass("fadeOn")
+	}, 600);
 	$(".top_menu li").removeClass("fadeInUp animated");
 	$(".top_menu li").addClass("fadeOutDown animated");
 	$("h1, p, h3").removeClass("opacity");
