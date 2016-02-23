@@ -119,7 +119,7 @@
 
 @media only screen and (max-width : 380px) {
 	h1{
-		font-size: 65px;
+		font-size: 60px;
 	}
 	header p{
 		font-size: 21px;
@@ -128,6 +128,10 @@
 
 	h2{
 		font-size: 44px;
+	}
+	.content-box{
+		padding-left: 0;
+		padding-right: 0;
 	}
 }
 /* Custom, iPhone Retina */
