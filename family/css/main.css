@@ -444,3 +444,6 @@ h4, .modal-body p{
   display: flex !important;
 }
 
+.packet .title img{
+  width: 100%;
+}
