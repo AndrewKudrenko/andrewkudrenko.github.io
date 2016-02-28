@@ -641,15 +641,136 @@ color: #31364C;;
   padding-top: 30px;
 }
 
-#contacts .btn-danger{
+.btn-black{
   background: #212529;
   border-radius: 25px;
   border-color: #212529;
-  color: #fff;
+  color: #fff !important;
   display: inline-block;
   width: auto !important;
   padding: 10px 30px;
 }
-#contacts .btn-danger:hover{
+.btn-black:hover{
   background: #0D0F10; 
+}
+
+footer{
+  background: #212529;
+  padding: 40px 0;
+}
+
+footer p{
+  font-size: 17px;
+  color: #45474F;
+}
+
+#about{
+  padding: 120px 0;
+  background-image: url(../img/about-bg.jpg);
+  background-size: 100%;
+}
+
+#about .about{
+  display: flex;
+  align-items: center;
+}
+
+#about h1{
+  font-size: 60px;
+}
+
+#about .btn-black{
+  margin: 20px 0;
+}
+
+#history h2{
+  color: #31364C;
+}
+
+#history h3{
+  color: #31364C;
+  line-height: 25px;
+  font-size: 35px;
+  font-weight: 900;
+}
+
+#history p{
+  color: #9699A6;
+  font-size: 20px;
+}
+
+#history{
+  padding: 70px 0;
+}
+
+#history .line{
+  width: 10px;
+  height: 100%;
+  background: #F2F3F5;
+  position: absolute;
+  left: 50%;
+  margin-left: -5px;
+}
+
+#history .line-circle{
+  width: 20px;
+  height: 20px;
+  background: #F2F3F5;
+  position: absolute;
+  left: 50%;
+  margin-left: -10px;
+  border-radius: 50%;
+}
+
+#history .line-circle-bottom{
+  width: 20px;
+  height: 20px;
+  background: #F2F3F5;
+  position: absolute;
+  left: 50%;
+  margin-left: -10px;
+  border-radius: 50%;
+  bottom: 0;
+  margin-top: 40px;
+}
+
+#history .content-outer{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+#history .content{
+  padding-top: 60px;
+  /*padding-bottom: 50px;*/
+}
+
+#history .cirlce-outer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#history .cirlce{
+  width: 140px;
+  height: 140px;
+  padding: 30px;
+  border: 6px solid #F2F3F5;
+  border-radius: 50%;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#history .cirlce img{
+  width: 100%;
+}
+
+#history .arrow{
+  padding-top: 40px
+}
+
+.m-b-60{
+  margin-bottom: 60px;
 }
