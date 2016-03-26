@@ -15,27 +15,61 @@
 	<link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css" />
 	<link rel="stylesheet" href="libs/animate/animate.min.css" />
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css" />
+	<link rel="stylesheet" href="libs/swiper/css/swiper.min.css" />
 	<link rel="stylesheet" href="css/form-style.css" />
 	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="css/media.css" />
 </head>
 <body>
-	<header id ="intro" class="main_head main_color_bg" data-parallax="scroll" data-image-src="img/picture1.jpg" data-z-index="1">
+	<header >
 		<!-- <div class="wrapper"> -->
 			<!-- <div class="container"> -->
 				<!-- <div class="row"> -->
 					<div class="col-md-12">
-						<div class="logo">
-							<img src="img/logo-footer.png" alt="">
-						</div>
-						<button class="toggle_menu">
-							<span class="sandwich">
-								<span class="sw-topper"></span>
-								<span class="sw-bottom"></span>
-								<span class="sw-footer"></span>
-							</span>
-						</button>
-						<nav class="top_menu">
+						<div class="menu">
+							<div class="logo">
+								<img src="img/logo.png" alt="">
+							</div>
+<!-- 							<button class="toggle_menu">
+								<span class="sandwich">
+									<span class="sw-topper"></span>
+									<span class="sw-bottom"></span>
+									<span class="sw-footer"></span>
+								</span>
+							</button> -->
+							
+							<ul>
+								<li>
+									<a href="#intro">
+										Главная
+										<span class="underline yellow"></span>
+									</a>
+								</li>
+								<li>
+									<a href="#about">О нас
+										<span class="underline orange"></span>
+									</a>
+								</li>
+								<li>
+									<a href="#services">Услуги
+										<span class="underline red"></span>
+									</a>
+								</li>
+								<li>
+									<a href="#additional-services">Доп. Услуги
+										<span class="underline blue"></span>
+									</a>
+								</li>
+								<li>
+									<a href="#callback">Контакты
+										<span class="underline light-blue"></span>
+									</a>
+								</li>
+							</ul>
+
+
+
+<!-- 						<nav class="top_menu">
 							<ul>
 								<li>
 									<a href="#intro">Главная</a>
@@ -53,15 +87,48 @@
 									<a href="#callback">Контакты</a>
 								</li>
 							</ul>
-						</nav>
+						</nav> -->
+
+	
+
+						</div>
 					</div>
 				<!-- </div> -->
 			<!-- </div> -->
 		<!-- </div> -->
-		<div class="content-box fadeIn">
-			<h1>Family planning<p>Emergency family mediation, planning for stability and de-escalation support is offered.</p></h1>
+		</header>
+
+		<section id ="intro" class="main_head main_color_bg" data-parallax="scroll" data-image-src="img/" data-z-index="1">
+		<div class="swiper-container full-size">
+			<div class="swiper-wrapper">
+
+				<div class="swiper-slide" style="background-image:url(img/bg-slider/bg-1.jpg)">
+					<div class="content-box fadeIn">
+						<h1 class="anim-down">Рождение ребенка</h1>
+						<p class="anim-up">Самая заветная мечта женщины и самое<br> большое таинство для семьи.</p>
+					</div>
+				</div>
+				<div class="swiper-slide" style="background-image:url(img/bg-slider/bg-2.jpg)">
+					<div class="content-box">
+						<h1>Радость материнства</h1>
+						<p>Что может сделать женщину счастливие?</p>
+					</div>
+				</div>
+				<div class="swiper-slide" style="background-image:url(img/bg-slider/bg-3.jpg)">
+					<div class="content-box">
+						<h1>Мы и наши врачи</h1>
+						<p>Помогут Вам обрести радость материнства</p>
+					</div>
+				</div>
+				<div class="swiper-slide" style="background-image:url(img/bg-slider/bg-4.jpg)">
+					<div class="content-box">
+						<h1>Рождение ребенка</h1>
+						<p>Это счастье и мы готовы помочь Вам обрести его</p>
+					</div>
+				</div>
+			</div>
 		</div>
-	</header>
+	</section>
 
 	<section id="about">
 		<div class="about">
@@ -241,6 +308,61 @@
 			</div>
 		</div>
 	</section>
+	
+	<section id="about">
+		<div class="about">
+			<div class="container">
+				<div class="row"> 
+					<div class="col-md-6">
+						<h3>Доноры <br><span>Why we are different</span></h3>
+						<p>We offer fresh alternatives to explore free, positive options for the problems you face, including the ability for you to solve baby necessities through educational activities, counseling and volunteering at the center, as well as providing your children up to five years old with food and clothing. Let us help you confidentially discuss your options, set and reach your goals, and turn wishes and dreams into reality for you and your family.</p>
+						<a href="#" class="butn" data-toggle="modal" data-target="#About_Modal_01">Read More</a>
+						<!-- Modal -->
+						<div class="flex-box">
+						<div class="modal fade" id="About_Modal_01" tabindex="-1" role="dialog" aria-labelledby="About_ModalLabel_01" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+											<h4 class="modal-title" id="About_ModalLabel_01">Lorem ipsum</h4>
+									</div>
+									<div class="modal-body">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis laboriosam ducimus odio quo, quisquam, atque dolorum ullam quod qui neque, tenetur cupiditate molestias dolor. Incidunt deleniti, placeat perspiciatis illum.</p>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<h3>Клиники <br><span>What we can offer</span></h3>
+						<p>Family Center offers assistance in balancing family needs with work life. We offer resources and links to services in the areas of adult care, summer camps, before and after school care, and tutorial services. These resources and links provide a brief overview of the topics and links to web sites for more detailed information. You can access this information 24 hours a day / 7 days a week. Our family center is</p>
+						<a href="#" class="butn" data-toggle="modal" data-target="#About_Modal_02">Read More</a>
+						<!-- Modal -->
+						<div class="modal fade" id="About_Modal_02" tabindex="-1" role="dialog" aria-labelledby="About_ModalLabel_02" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+											<h4 class="modal-title" id="About_ModalLabel_02">Lorem ipsum</h4>
+									</div>
+									<div class="modal-body">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis laboriosam ducimus odio quo, quisquam, atque dolorum ullam quod qui neque, tenetur cupiditate molestias accusamus dolor. Incidunt deleniti, placeat perspiciatis illum.</p>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
 	<section id="additional-services">
 		<div class="additional-services">
@@ -417,12 +539,31 @@
 	<script src="libs/scroll2id/PageScroll2id.min.js"></script>
 	<script src="libs/waypoints/waypoints.min.js"></script>
 	<script src="libs/bootstrap/bootstrap.js"></script>
-
+	<script src="libs/swiper/js/swiper.min.js"></script>
 
 	<script src="libs/animate/animate-css.js"></script>
 	<script src="js/common.js"></script>
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+
+
+	<script>
+	var swiper = new Swiper('.swiper-container', {
+		pagination: '.swiper-pagination',
+		effect: 'cube',
+		grabCursor: true,
+		autoplayDisableOnInteraction: false,
+		loop: true,
+		autoplay: 4000,
+		speed: 700,
+		cube: {
+			shadow: false,
+			slideShadows: false,
+			shadowOffset: 20,
+			shadowScale: 0.94,
+		}
+	});
+	</script>
 </body>
 </html>
 

@@ -34,9 +34,11 @@ $(".toggle_menu").click(function(){
 });
 
 $(document).ready( function(){
-  $("h1").addClass("fadeInDown animated");
-  $("header p").addClass("fadeInUp animated");
+  $(".anim-down").addClass("fadeInDown animated");
+  $(".anim-up").addClass("fadeInUp animated");
 } );
+
+
 
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
@@ -61,3 +63,18 @@ $(function() {
   });
 });
 
+
+$(document).ready(function(){
+        $(window).scroll(function(){
+            var bo = $("body").scrollTop();
+            // $('#hid').text(bo);
+			if ( bo > 50 ){ 
+				$("header .menu").css("background", "#151521")
+				$("header .menu").css("box-shadow", "rgb(21, 21, 33) 0px 2px 17px 1px")
+			}
+			else{
+				$("header .menu").css("background", "transparent")
+				$("header .menu").css("box-shadow", "none")
+			};
+        })
+    })
