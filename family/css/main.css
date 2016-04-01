@@ -66,6 +66,7 @@ section,
   padding-top: 0; }
 
 .toggle_menu {
+  display: none;
   position: fixed;
   background: #292942;
   width: 60px;
@@ -290,7 +291,7 @@ header .col-md-12{
 }
 
 #intro{
-  z-index: -2;
+  /* z-index: -2; */
   background: #907A61;
 }
 
@@ -299,6 +300,20 @@ header .col-md-12{
   font-size: 36px;
   font-weight: 100;
   line-height: 30px;
+}
+
+#intro .swiper-button-prev, #intro .swiper-button-next{
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+}
+
+#intro .swiper-button-next{
+  background-image: url(../img/arrows/arrow-right.png);
+}
+
+#intro .swiper-button-prev{
+  background-image: url(../img/arrows/arrow-left.png);
 }
 
 .top_menu ul {
@@ -578,3 +593,40 @@ h4, .modal-body p{
 .swiper-slide{
   background-size: cover;
 }
+
+#law .title {
+  background: transparent;
+}
+
+#law .parallax-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 130%;
+  height: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+#law{
+  height: 400px;
+  display: flex;
+}
+
+#law .swiper-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-body p{
+  text-align: justify;
+}
+
+}
+.modal-body ul li{
+  color: #464646 !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  }
