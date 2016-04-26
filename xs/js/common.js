@@ -16,6 +16,37 @@ $(document).ready(function() {
 	}, 3500); 
 });
 
+var tempIndex = 0;
+
+$(".value").text(tempIndex);
+
+$(".up").click(function(){
+	var curIndex = $(this).parent().find(".value").text();
+	curIndex  = parseInt(curIndex , 10);
+	curIndex += 1;
+	$(this).parent().find(".value").text(curIndex);
+	if(curIndex > 0){
+		$(this).parent().find(".down").css("display" , "block");
+	}else{
+		$(this).parent().find(".down").css("display" , "none");
+	}
+});
+
+$(".down").click(function(){
+	var curIndex = $(this).parent().find(".value").text();
+	curIndex  = parseInt(curIndex , 10);
+	curIndex -= 1;
+	$(this).parent().find(".value").text(curIndex);
+	if(curIndex > 0){
+		$(this).parent().find(".down").css("display" , "block");
+	}else{
+		$(this).parent().find(".down").css("display" , "none");
+	}
+});
+
+
+// var a = $(".counter .value").text();
+// alert(a);
 
 // $(".toggle_menu, .menu_item").click(function() {
 //   $(".sandwich").toggleClass("active");
