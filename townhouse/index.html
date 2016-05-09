@@ -1,56 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Town House</title>
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/animate.css">
-</head>
-<body>
-	<div id="preloader"></div>
+<html lang="ru">
 
-	<div class="bg full-size">
-		<header>
-			<div class="header-outer">
-				<div class="logo"><img src="img/logo.png" alt=""></div>
-				<div class="callback"><a class="butn" href="#">связаться с нами<img src="img/callback.png" alt=""></a></div>
-			</div>
-		</header>
-		<div class="title-outer">
-			<h1 class="title">СТРОИТЕЛЬСТВО ТАУНХАУСОВ</h1>
-			<h3>Lorem ipsum <span>dolor sit amet</span></h3>
+<head>
+    <meta charset="utf-8">
+    <title>Заголовок</title>
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/vendor.min.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body>
+
+
+	<header>
+		<div class="mainTitle">
+			<h2>Строительство домов</h2>
+			<a href="#">Подробнее</a>
 		</div>
-		<div class="buttons">
-			<a class="butn light" href="#">Сделать заказ</a>
-			<a class="butn dark" href="#">Подробнее</a>
-		</div>
-		<div class="scroll-down">
-			<a href="#info"><span></span>Scroll down</a>
-		</div>
-	</div>
-<!-- 	<section id="section10" class="demo">
-</section> -->
-	<section id="info">
-		<div class="info">
-			<div class="info-container wow fadeInLeft">
-				<h2>Lorem ipsum <span>dolor sit</span></h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure libero ab, enim temporibus delectus ea vero nemo sed consequuntur consequatur! Laboriosam quae delectus et mollitia blanditiis, similique nesciunt commodi error.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure libero ab, enim temporibus delectus ea vero nemo sed consequuntur consequatur!</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus aspernatur in ad tempora veniam corporis dolorum dolor facilis quod optio molestiae ipsum odio explicabo rem excepturi soluta ea, reprehenderit ipsa.</p>
-				<a class="butn more" href="#">Подробнее</a>
+		
+		<div class="mainTitle">
+			<h2>Продажа домов</h2>
+			<a href="#">Подробнее</a>
+			<a href="#" class="callback" data-toggle="modal" data-target="#myModal"><img src="img/letter-w.png" alt=""><span>Напишите нам</span></a>
+			<div id="myModal" class="modal fade">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button class="close" type="button" data-dismiss="modal">×</button>
+							<h4 class="modal-title">Напишите нам</h4>
+						</div>
+						<div class="modal-body">
+							<form action="" method="POST">
+								<div class="form-wrapper">
+									<div class="select-continer">
+										<img class="arrow-down" src="img/arrow-down.png" alt="">
+										<select name="status">
+											<option>Продажа домов</option>
+											<option>Строительство домов</option>
+										</select>
+									</div>
+									<div class="email">
+										<input type="email" name="email" placeholder="E-mail">
+									</div>
+									<div class="phone">
+										<input type="tel" type="phone" placeholder="Номер телефона">	
+									</div>
+									<div class="msg">
+										<textarea rows="4" placeholder="Ваши пожелания" name="text"></textarea>
+									</div>
+									<a href="#" type="submit">Отправить</a>
+								</div>
+							</form>
+						</div>
+						<div class="modal-footer">
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="info-container wow fadeInRight">
-				<h2><span>Lorem ipsum</span> dolor sit</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure libero ab, enim temporibus delectus ea vero nemo sed consequuntur consequatur! Laboriosam quae delectus et mollitia blanditiis, similique nesciunt commodi error.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure libero ab, enim temporibus delectus ea vero nemo sed consequuntur consequatur!</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus aspernatur in ad tempora veniam corporis dolorum dolor facilis quod optio molestiae ipsum odio explicabo rem excepturi soluta ea, reprehenderit ipsa.</p>
-				<a class="butn more" href="#">Подробнее</a>
-			</div>
-				
-			</div>
 		</div>
-	</section>
+	</header>
+
+
+    <div class="loader">
+        <div class="loader_inner"></div>
+    </div>
 
 	<footer>
 		<div class="outer">
@@ -63,9 +80,8 @@
 			<p class="wow fadeIn">© 2016 All rights reserved</p>
 		</div>
 	</footer>
-	<script src="js/jquery.min.js"></script>
-	<script src="js/wow.min.js"></script>
-	<script>new WOW().init();</script>
-	<script src="js/common.js"></script>
+    <script src="scripts/vendor.min.js"></script>
+    <script src="scripts/main.min.js"></script>
 </body>
+
 </html>
