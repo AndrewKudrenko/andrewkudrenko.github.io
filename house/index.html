@@ -15,8 +15,63 @@
 
 <body>
 
+	<header class="main">
+		<div class="over over-off">
+			<div class="menu">
+				<nav>
+					<ul>
+						<li><a href="index.html">Главная</a></li>
+						<li><a href="services.html">Услуги</a></li>
+						<li><a href="#">Цены</a></li>
+			<!-- 			<li class="logo-item">
+							<img src="img/header-logo.png" alt="">
+							<img class="hover-logo"src="img/blue-logo.png" alt="">  
+						</li> -->
+						<li><a href="#">Портфолио</a></li>
+						<li><a href="#">О нас</a></li>
+						<li><a href="#">Контакты</a></li>
+						<li><a href="#" class="callback" data-toggle="modal" data-target="#myModal"><img src="img/letter-w.png" alt=""><span>Напишите нам</span></a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
 
-	<header>
+		<div id="myModal" class="modal fade">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" type="button" data-dismiss="modal">×</button>
+						<h4 class="modal-title">Напишите нам</h4>
+					</div>
+					<div class="modal-body">
+						<form action="" method="POST">
+							<div class="form-wrapper">
+								<div class="select-continer">
+									<img class="arrow-down" src="img/arrow-down.png" alt="">
+									<select name="status">
+										<option>Продажа таунхаусов</option>
+										<option>Строительство домов</option>
+									</select>
+								</div>
+								<div class="email">
+									<input type="email" name="email" placeholder="E-mail">
+								</div>
+								<div class="phone">
+									<input type="tel" type="phone" placeholder="Номер телефона">	
+								</div>
+								<div class="msg">
+									<textarea rows="4" placeholder="Ваши пожелания" name="text"></textarea>
+								</div>
+								<a href="#" type="submit">Отправить</a>
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer">
+					</div>
+				</div>
+			</div>
+		</div>
+		
 		<div class="mainTitle">
 			<a class="main-btn" href="services.html"></a>
 			<h2>Строительство домов</h2>
@@ -33,15 +88,15 @@
 			<h2>Продажа таунхаусов</h2>
 			<!-- <a href="#">Подробнее</a> -->
 			<a class="main-btn" href="#"></a>
-			<a href="#" class="callback" data-toggle="modal" data-target="#myModal"><img src="img/letter-w.png" alt=""><span>Напишите нам</span></a>
-			<div class="phone-number">
+<!-- 			<a href="#" class="callback" data-toggle="modal" data-target="#myModal"><img src="img/letter-w.png" alt=""><span>Напишите нам</span></a> -->
+<!-- 			<div class="phone-number">
 				<p>099-999-99-99</p>
 				<p>099-999-99-99</p>
-			</div>
+			</div> -->
 			<div class="stock">
 				<span>Акция</span>
 			</div>
-			<div id="myModal" class="modal fade">
+<!-- 			<div id="myModal" class="modal fade">
 				<div class="modal-dialog">
 					<div class="modal-content">
 						<div class="modal-header">
@@ -75,7 +130,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</header>
 

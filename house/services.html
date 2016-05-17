@@ -15,75 +15,103 @@
 
 <body>
 
-	<header class="services">
+	<header>
 		<div class="over">
 			<div class="menu">
 				<nav>
 					<ul>
 						<li><a href="index.html">Главная</a></li>
-						<li><a href="services.html">Строительство</a></li>
-						<li class="logo-item">
+						<li><a href="services.html">Услуги</a></li>
+						<li><a href="#">Цены</a></li>
+			<!-- 			<li class="logo-item">
 							<img src="img/header-logo.png" alt="">
 							<img class="hover-logo"src="img/blue-logo.png" alt="">  
-						</li>
-						<li><a href="">Продажа</a></li>
-						<li><a href="">Контакты</a></li>
+						</li> -->
+						<li><a href="#">Портфолио</a></li>
+						<li><a href="#">О нас</a></li>
+						<li><a href="#">Контакты</a></li>
+						<li><a href="#" class="callback" data-toggle="modal" data-target="#myModal"><img src="img/letter-w.png" alt=""><span>Напишите нам</span></a></li>
 					</ul>
 				</nav>
 			</div>
-			<h1>«Архитектурно-строительная мастерская» </h1>
-			<p>предоставляет полный комплекс услуг по строительству коттеджей с удобными для "Заказчика" формами оплаты выполненных работ.</p>
+		</div>
+
+		<div id="myModal" class="modal fade">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" type="button" data-dismiss="modal">×</button>
+						<h4 class="modal-title">Напишите нам</h4>
+					</div>
+					<div class="modal-body">
+						<form action="" method="POST">
+							<div class="form-wrapper">
+								<div class="select-continer">
+									<img class="arrow-down" src="img/arrow-down.png" alt="">
+									<select name="status">
+										<option>Продажа таунхаусов</option>
+										<option>Строительство домов</option>
+									</select>
+								</div>
+								<div class="email">
+									<input type="email" name="email" placeholder="E-mail">
+								</div>
+								<div class="phone">
+									<input type="tel" type="phone" placeholder="Номер телефона">	
+								</div>
+								<div class="msg">
+									<textarea rows="4" placeholder="Ваши пожелания" name="text"></textarea>
+								</div>
+								<a href="#" type="submit">Отправить</a>
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer">
+					</div>
+				</div>
+			</div>
 		</div>
 	</header>
 
-	<div class="section-wrapper">
-		<section>
-			<div class="img-block">
-				<div data-0="left: -100%" data-400="left: 0" class="img-container">
-					<img src="img/img2.jpg" alt="">
-				</div>
-				<div data-0="right: -100%" data-450="right: 0" class="text-block">
-					<h2>Дизайн</h2>
-					<p>Создание дизайна - один из самый тонких и щепетильных моментов при строительстве вашего дома. Выезд дизайнера на объект обеспечит точные замеры помещения, фотосъемку необходимых узлов (стояков систем водоснабжения и отопления, оконных и дверных откосов и т.д.). После - мы вместе с Вами осуществим выбор стилевого направления, разработку концепции дизайна интерьера, поиск комплексного решения с учетом стиля, удобства и Ваших предпочтений. На финальном этапе Вы получите презентацию готового дизайн-проекта на бумажном носителе и в электронном виде, созданного конкретно исходя с Ваших пожеланий.</p>
-				</div>
+	<section id="service-list">
+		<div class="list-container">
+			<div class="service">
+				<img src="img/serv1-min.jpg" alt="">
+				<h2><span>Дизайн-проект дома твоей мечты</span></h2>
+				<a href="service.html" class="button">Подробнее</a>
 			</div>
-		</section>
-		<section>
-			<div class="img-block">
-				<div data-600="right: -100%" data-900="right: 0" class="img-container">
-					<img src="img/img3.jpg" alt="">
-				</div>
-				<div data-600="left: -100%" data-950="left: 0" class="text-block">
-					<h2>Проектирование</h2>
-					<p>Наша компания дарит вам возможность индивидуального проектирования постройки. Специалисты, учитывая ваши пожелания, создадут эскиз архитектурного дизайна здания, а также разработают схему планировки квартиры. Разумеется, при этом будут учтены пространственные требования земельного участка, технические характеристики материалов и конструкций. Притом и в выборе материалов, конечно же, в первую очередь будут выслушаны ваши пожелания.</p>
-				</div>
+			<div class="service">
+				<img src="img/img3-min.jpg" alt="">
+				<a href="service.html" class="button">Подробнее</a>
+				<h2><span>Проектирование</span></h2>
 			</div>
-		</section>
-		<section>
-			<div class="img-block">
-				<div data-900="left: -100%" data-1300="left: 0" class="img-container">
-					<img src="img/img5.jpg" alt="">
-				</div>
-				<div data-900="right: -100%" data-1350="right: 0" class="text-block">
-					<h2>Строительство под ключ</h2>
-					<p>Если вы нашли в нашем каталоге такой подходящий именно вам готовый проект дома, мы с радостью построим его для вас. Но что делать, если такого идеального проекта в каталоге не оказалось? Решение очевидно – построить дом по вашему индивидуальному проекту! Да, построить дом, в котором вы сами решите, где должна быть кухня, а где детская, в котором найдется место для еще одной кладовочки или для вашей художественной мастерской, а может и для целой оранжереи или зимнего сада.</p>
-				</div>
+			<div class="service">
+				<img src="img/serv3-min.jpg" alt="">
+				<a href="service.html" class="button">Подробнее</a>
+				<h2><span>Строительство</span></h2>
 			</div>
-		</section>
-<!-- 		<section>
-			<div class="img-block">
-				<div data-1500="right: -100%" data-1700="right: 0" class="img-container">
-					<img src="img/img5.png" alt="">
-				</div>
-				<div data-1400="left: -100%" data-1750="left: 0" class="text-block">
-					<h2>Фасадные работы</h2>
-					<p>Профессионально выполненные фасадные работы — напрямую влияют на срок «жизни» здания. От них зависит так же насколько комфортно будет жить в доме. Качественный фасад — это: защита стен от грибка и плесени; защита стен от промерзания; отсутствие конденсата; хорошая звукоизоляция; экономия на отоплении, за счет утепления стен.</p>
-				</div>
+			<div class="service">
+				<img src="img/serv4-min.jpg" alt="">
+				<a href="service.html" class="button">Подробнее</a>
+				<h2><span>Монтаж инженерных сетей</span></h2>
 			</div>
-		</section> -->
-	</div>
-
-
+			<div class="service">
+				<img src="img/serv5-min.jpg" alt="">
+				<a href="service.html" class="button">Подробнее</a>
+				<h2><span>Внутренняя отделка дома</span></h2>
+			</div>
+			<div class="service">
+				<img src="img/serv6-min.jpg" alt="">
+				<h2><span>Ландшафтный дизайн</span></h2>
+				<a href="service.html" class="button">Подробнее</a>
+			</div>
+			<div class="service">
+				<img src="img/serv7-min.jpg" alt="">
+				<h2><span>Оформление построенного дома</span></h2>
+				<a href="service.html" class="button">Подробнее</a>
+			</div>
+		</div>
+	</section>
 
     <div class="loader">
         <div class="loader_inner"></div>
