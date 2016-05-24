@@ -1,0 +1,89 @@
+$main_font: "GothamProRegular", sans-serif
+$title_font: "GothamProBold", sans-serif
+$light_font: "GothamProLight", sans-serif
+
+
+
+.lineSt
+	width: 200px
+	height: 3px
+	background-color: $mainColor
+	margin: 10px auto
+//Semi Lines
+
+@keyframes border-hor50
+	from
+		width: 0
+	to
+		width: 50%		
+@keyframes border-vert50
+	from
+		height: 0
+	to
+		height: 50%	
+
+=semi_border($color, $size, $time)
+	position: absolute
+	background-color: $color
+	&:first-child
+		left: 0
+		top: 0
+		width: $size
+		height: 0
+	&:nth-child(2)
+		left: 0
+		top: 0
+		width: 0
+		height: $size	
+	&:nth-child(3)
+		right: 0
+		bottom: 0
+		width: $size
+		height: 0
+	&:nth-child(4)
+		right: 0
+		bottom: 0
+		width: 0
+		height: $size
+	&:nth-child(odd)
+		animation-name: border-vert50
+		animation-duration: $time
+		animation-fill-mode: forwards
+	&:nth-child(even)
+		animation-name: border-hor50
+		animation-duration: $time
+		animation-fill-mode: forwards
+
+=semi_to_full_border($color, $size, $time)
+	position: absolute
+	background-color: $color
+	transition: all $time
+	&:first-child
+		left: 0
+		top: 0
+		width: $size
+		height: 50%
+	&:nth-child(2)
+		left: 0
+		top: 0
+		width: 50%
+		height: $size	
+	&:nth-child(3)
+		right: 0
+		bottom: 0
+		width: $size
+		height: 50%
+	&:nth-child(4)
+		right: 0
+		bottom: 0
+		width: 50%
+		height: $size	
+	&:hover
+		&:first-child
+			height: 100%
+		&:nth-child(2)
+			width: 100%
+		&:nth-child(3)
+			height: 100%
+		&:nth-child(4)
+			width: 100%

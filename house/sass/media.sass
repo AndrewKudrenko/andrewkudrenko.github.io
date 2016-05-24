@@ -1,0 +1,272 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	/**/
+	#service-list
+		.list-container
+			.service
+				img
+					height: 100%
+			.service
+				&:last-child
+					// margin: auto
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	#sale-info
+		padding-top: 50px
+		.row
+			.img-block
+				text-align: center
+				height: auto !important
+				.img-container
+					width: 100%
+				.text-block
+					transform: none
+					position: relative
+					bottom: 0
+					margin: auto
+					float: none
+	#service-list
+		.list-container
+			.service
+				width: 50%
+	.about-block
+		h1
+		.content
+			display: flex
+			flex-direction: column
+			h2
+				display: inline-block
+				width: 250px
+			p
+				text-align: center
+				width: 90%
+				margin: auto
+				position: static
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated
+		/*CSS transitions*/
+		-o-transition-property: none !important
+		-moz-transition-property: none !important
+		-ms-transition-property: none !important
+		-webkit-transition-property: none !important
+		transition-property: none !important
+		/*CSS transforms*/
+		-o-transform: none !important
+		-moz-transform: none !important
+		-ms-transform: none !important
+		-webkit-transform: none !important
+		transform: none !important
+		/*CSS animations*/
+		-webkit-animation: none !important
+		-moz-animation: none !important
+		-o-animation: none !important
+		-ms-animation: none !important
+		animation: none !important
+	.mob-menu
+		display: block
+	.main-menu
+		display: none
+	#sale-info
+		.row
+			.img-block
+				flex-direction: column-reverse
+				.img-container
+				.text-block
+					padding: 30px
+					width: 100%
+					p
+						font-size: 14px !important
+	.about-block
+		h1
+			width: auto
+			font-size: 30px
+			padding: 0
+		.content
+			h2
+				font-size: 25px
+				width: 180px
+			p
+				font-size: 13px
+				text-align: justify
+				margin-bottom: 10px
+				padding: 10px
+
+	header
+		.mainPage
+			.mainTitle
+				display: flex
+				justify-content: center
+				align-items: center
+				width: 100%
+				height: 50%
+				bottom: 0
+				&:first-child
+					top: 0
+				h2
+					margin: 0
+					text-align: center
+					font-size: 40px
+	.row
+		.img-block.big
+			margin-top: 70px
+			display: flex
+			flex-direction: column-reverse
+			.img-container
+				position: static
+				margin: auto
+				margin-top: 10px
+				width: 80%
+			.text-block
+				padding: 25px
+				margin: auto
+				min-height: auto
+				p
+					text-align: justify 
+				h2
+					padding: 0
+					width: 100%
+					text-align: center
+					top: -65px
+		.img-block.default
+			display: flex
+			flex-direction: column
+			justify-content: center;
+			align-items: center;
+			height: auto !important
+			margin: 0
+			padding: 30px 0
+			h2
+				padding: 0
+				padding-bottom: 20px
+			.img-container
+				order: 3
+				width: 80%
+			.text-block
+				width: 80%
+				position: relative
+				bottom: 0 !important
+				padding: 0
+				margin-bottom: 20px
+				p
+					margin: 0
+					padding: 15px
+					text-align: justify !important
+	.portfolio_s
+		.items
+			.item
+				width: 90%
+				.overlay
+					height: 100%
+					.info_block
+						opacity: 1
+						a
+							&:after
+								width: 2px
+							&:before
+								height: 2px
+							.line
+								&:first-child
+									width: 100%
+
+
+
+	footer
+		.outer
+			display: flex
+			flex-wrap: wrap
+			padding: 0
+		.contact, .logo
+			width: 100%
+			text-align: center
+			padding-top: 10px
+		p
+			width: 100%
+			text-align: center
+
+@media only screen and (max-width : 620px)
+	#service-list
+		.list-container
+			.service
+				width: 100%
+				h2
+					font-size: 26px
+
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	// #sale-info
+	// 	.row
+	// 		.img-block
+	// 			.text-block
+	// 				p
+	// 					font-size: 16px
+
+	.row
+		.img-block.big
+			margin-top: 0
+			margin-bottom: 0
+			.img-container
+				width: 100%
+				margin-top: 0
+			.text-block
+				width: 100%
+				text-align: justify
+				h2
+					position: static
+		.img-block.default
+			padding: 0
+			h2
+				padding: 10px
+			.img-container
+				width: 100%
+			.text-block
+				width: 100%
+				margin: 0
+				p, ul li
+					font-size: 12px
+					padding: 10px
+				ul li
+					padding: 0
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
