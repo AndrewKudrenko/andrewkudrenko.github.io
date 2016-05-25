@@ -18,7 +18,26 @@
 	<header>
 		<div class="over">
 			<div class="menu">
-				<nav>
+				<div class="mob-menu">
+					<nav role="navigation">
+						<div id="menuToggle">
+							<input type="checkbox" />
+							<span></span>
+							<span></span>
+							<span></span>
+							<ul id="menu">
+								<a href="index.html"><li>Главная</li></a>
+							<a href="services.html"><li>Услуги</li></a>
+							<a href="price.html"><li>Цены</li></a>
+							<a href="sale.html"><li>Продажи</li></a>
+							<a href="about.html"><li>О нас</li></a>
+							<a href="contacts.html"><li>Контакты</li></a>
+							<a href="#" data-toggle="modal" data-target="#myModal"><li>Напишите нам</li></a>
+							</ul>
+						</div>
+					</nav>
+				</div>
+				<nav class="main-menu">
 					<ul>
 						<li><a href="index.html">Главная</a></li>
 						<li><a href="services.html">Услуги</a></li>
@@ -72,7 +91,7 @@
 			</div>
 		</div>
 	</header>
-
+<div id="skrollr-body">
 	<div class="container">
 		<div class="row">
 			<div class="img-block  default">
@@ -86,30 +105,30 @@
 			</div>	
 
 			<div class="img-block default right">
-				<h2 data-bottom-top="opacity: 0" data--100-bottom="opacity: 1">Оформление земельного участка</h2>
-				<div class="img-container" data-bottom-top="right: -1000px" data--100-bottom="right: 0px">
+				<h2 data-0="opacity: 0" data-600="opacity: 1">Оформление земельного участка</h2>
+				<div class="img-container" data-0="right: -1000px" data-700="right: 0px">
 					<img src="img/decor/decor2.jpg" alt="">
 				</div>
-				<div class="text-block" data-bottom-top="left: -1000px" data--100-bottom="left: 0px">
+				<div class="text-block" data-0="left: -1000px" data-700="left: 0px">
 					<p>На первом этапе оформляются документы на землю под строительство. Проще оформляется земельный участок в дачном поселке или садовом обществе. Если же земля находится в частной собственности, то она должна иметь целевым назначением застройку под строительство частного дома. Чтобы оформить землю в собственность, надо подавать заявление в соответствующие органы власти, предоставив предварительный план дома. Решение выносится примерно через месяц. </p>
 				</div>
 			</div>	
 
 			<div class="img-block  default">
 				<h2 data-bottom-top="opacity: 0" data--100-bottom="opacity: 1">Разрешение на строительство </h2>
-				<div class="img-container" data-bottom-top="left: -1000px" data--100-bottom="left: 0px">
+				<div class="img-container" data-0="left: -1000px" data-1300="left: 0px">
 					<img src="img/decor/decor3.jpg" alt="">
 				</div>
-				<div class="text-block" data-bottom-top="right: -1000px" data--100-bottom="right: 0px">
+				<div class="text-block" data-0="right: -1000px" data-1500="right: 0px">
 					<p>После получения разрешения на строительство дома можно приступать к проекту, который разрабатывает либо архитектор, либо специализированная фирма. Готовый проект должен быть согласован в градостроительном совете и утвержден главным архитектором. Во время строительства необходимо полностью придерживаться проекта и соблюдать строительные нормы, что и делается нашей компанией. </p>
 				</div>
 			</div>	
 			<div class="img-block big right">
-				<div class="img-container" data-bottom-top="right: -1000px" data--100-bottom="right: 0px">
+				<div class="img-container" data-0="right: -1000px" data-2100="right: 0px">
 					<img src="img/decor/decor4.jpg" alt="">
 				</div>
-				<div class="text-block" data-bottom-top="left: -1000px" data-top="left: 0px">
-					<h2 data-2100="opacity: 1" data-2150="opacity: 1">Сдача эксплуатацию</h2>
+				<div class="text-block" data-1600="left: -1000px" data-2100="left: 0px">
+					<h2 data-2100="opacity: 0" data-2200="opacity: 1">Сдача эксплуатацию</h2>
 					<p>После завершения строительства, возникает вопрос, как оформить построенный дом. Для этого он должен быть сдан в эксплуатацию. Сначала нужно обратиться в БТИ для составления техпаспорта на готовое строение. Техник выезжает на место и выполняет соответствующие замеры. 
 					После получения техпаспорта на дом владелец должен подать заявление в государственные органы о создании рабочей комиссии. К заявлению должны быть приложены: строительный паспорт, который утверждает главный архитектор; договор со строительной фирмой, если строительство велось сторонней организацией; копия лицензии фирмы-подрядчика. 
 					На основании поданного заявления создается комиссия, в которую входят участники всех этапов строительства: кто проектировал, давал разрешения и строил, а также представители госконтроля. 
@@ -118,11 +137,11 @@
 			</div>
 
 			<div class="img-block big">
-				<div class="img-container" data-bottom-top="left: -1000px" data--100-bottom="left: 0px">
+				<div class="img-container" data-2200="left: -1000px" data-2900="left: 0px">
 					<img src="img/decor/decor5.jpg" alt="">
 				</div>
-				<div class="text-block" data-bottom-top="right: -1000px" data-top="right: 0px">
-					<h2 data-bottom-top="opacity: 1" data--100-bottom="opacity: 1">Оформление прав собственности</h2>
+				<div class="text-block" data-2200="right: -1000px" data-2900="right: 0px">
+					<h2 data-2900="opacity: 0" data-3000="opacity: 1">Оформление прав собственности</h2>
 					<p>На завершающем этапе следует оформление дома в собственность. Для этого подаются документы в регистрационный орган, который выдает Свидетельство о праве собственности на дом и имеющиеся на участке хозстроения. 
 					Таким образом, процесс оформления дома сложный и долгий. При заключении договора о строительстве под ключ наша фирма сделает так, что владелец дома коснется этого процесса лишь подписанием соответствующих документов. Если вы не имеете возможности построить дом под ключ, наша фирма может предложить другие варианты: возведение коробки или строительство дома под чистовую отделку. О ценах на строительство домов можно узнать на нашем сайте. Кроме того, мы предоставляем различные строительные услуги.</p>
 				</div>
@@ -167,6 +186,7 @@
 			<p class="wow fadeIn">© 2016 All rights reserved</p>
 		</div>
 	</footer>
+</div>
     <script src="scripts/vendor.min.js"></script>
     <script src="scripts/main.min.js"></script>
 

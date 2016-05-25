@@ -18,7 +18,26 @@
 	<header>
 		<div class="over">
 			<div class="menu">
-				<nav>
+				<div class="mob-menu">
+					<nav role="navigation">
+						<div id="menuToggle">
+							<input type="checkbox" />
+							<span></span>
+							<span></span>
+							<span></span>
+							<ul id="menu">
+								<a href="index.html"><li>Главная</li></a>
+							<a href="services.html"><li>Услуги</li></a>
+							<a href="price.html"><li>Цены</li></a>
+							<a href="sale.html"><li>Продажи</li></a>
+							<a href="about.html"><li>О нас</li></a>
+							<a href="contacts.html"><li>Контакты</li></a>
+							<a href="#" data-toggle="modal" data-target="#myModal"><li>Напишите нам</li></a>
+							</ul>
+						</div>
+					</nav>
+				</div>
+				<nav class="main-menu">
 					<ul>
 						<li><a href="index.html">Главная</a></li>
 						<li><a href="services.html">Услуги</a></li>
@@ -72,7 +91,7 @@
 			</div>
 		</div>
 	</header>
-
+<div id="skrollr-body">
 	<section id="sale-info">
 		<div class="container">
 			<div class="row">
@@ -138,6 +157,7 @@
 			<p class="wow fadeIn">© 2016 All rights reserved</p>
 		</div>
 	</footer>
+</div>
     <script src="scripts/vendor.min.js"></script>
     <script src="scripts/main.min.js"></script>
 
