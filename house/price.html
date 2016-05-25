@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Заголовок</title>
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link href='https://fonts.googleapis.com/css?family=Exo+2:400,300,700,200&subset=latin,cyrillic' rel='stylesheet' type='text/css'>    
+    <link rel="stylesheet" href="css/vendor.min.css">
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body>
+
+	<header class="price">
+		<div class="over">
+			<div class="menu">
+				<div class="mob-menu">
+					<nav role="navigation">
+						<div id="menuToggle">
+							<input type="checkbox" />
+							<span></span>
+							<span></span>
+							<span></span>
+							<ul id="menu">
+								<a href="index.html"><li>Главная</li></a>
+							<a href="services.html"><li>Услуги</li></a>
+							<a href="price.html"><li>Цены</li></a>
+							<a href="sale.html"><li>Продажи</li></a>
+							<a href="about.html"><li>О нас</li></a>
+							<a href="contacts.html"><li>Контакты</li></a>
+							<a href="#" data-toggle="modal" data-target="#myModal"><li>Напишите нам</li></a>
+							</ul>
+						</div>
+					</nav>
+				</div>
+				<nav class="main-menu">
+					<ul>
+						<li><a href="index.html">Главная</a></li>
+						<li><a href="services.html">Услуги</a></li>
+						<li><a href="price.html">Цены</a></li>
+			<!-- 			<li class="logo-item">
+							<img src="img/header-logo.png" alt="">
+							<img class="hover-logo"src="img/blue-logo.png" alt="">  
+						</li> -->
+						<li><a href="sale.html">Продажи</a></li>
+						<li><a href="about.html">О нас</a></li>
+						<li><a href="contacts.html">Контакты</a></li>
+						<li><a href="#" class="callback" data-toggle="modal" data-target="#myModal"><!-- <img src="img/letter-w.png" alt=""> --><span>Напишите нам</span></a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+
+		<div id="myModal" class="modal fade">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" type="button" data-dismiss="modal">×</button>
+						<h4 class="modal-title">Напишите нам</h4>
+					</div>
+					<div class="modal-body">
+						<form action="" method="POST">
+							<div class="form-wrapper">
+								<div class="select-continer">
+									<img class="arrow-down" src="img/main/arrow-down.png" alt="">
+									<select name="status">
+										<option>Продажа таунхаусов</option>
+										<option>Строительство домов</option>
+									</select>
+								</div>
+								<div class="email">
+									<input type="email" name="email" placeholder="E-mail">
+								</div>
+								<div class="phone">
+									<input type="tel" type="phone" placeholder="Номер телефона">	
+								</div>
+								<div class="msg">
+									<textarea rows="4" placeholder="Ваши пожелания" name="text"></textarea>
+								</div>
+								<a href="#" type="submit">Отправить</a>
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer">
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="price-block">
+		<div class="container">
+			<div class="row">
+<!-- 				<div class="col-md-5 col-md-offset-1"></div>
+				<div class="col-md-5"></div> -->
+				<h1>Наши тарифы</h1>
+				<div class="outer">
+					<div class="img-block"><img src="img/price/1.jpg" alt=""></div>
+					<div class="text-block">
+						<h2>Коробка</h2>
+						<div class="price-value">2750 грн/м2</div>
+					</div>
+				</div>
+
+				<div class="outer">
+					<div class="img-block"><img src="img/price/2.jpg" alt=""></div>
+					<div class="text-block">
+						<h2>Под отделку</h2>
+						<div class="price-value">4750 грн/м2</div>
+					</div>
+				</div>
+
+				<div class="outer">
+					<div class="img-block"><img src="img/price/3.jpg" alt=""></div>
+					<div class="text-block">
+						<h2>Под ключ</h2>
+						<div class="price-value">7750 грн/м2</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>	
+
+
+    <div class="loader">
+        <div class="loader_inner"></div>
+    </div>
+
+	<footer>
+		<div class="outer">
+			<div class="contact wow fadeIn">
+				<p><i class="fa fa-phone-square" aria-hidden="true"></i>phone: (044)-444-44-44</p>
+				<p><i class="fa fa-envelope-o" aria-hidden="true"></i>email: email@gmail.com</p>
+				<p><i class="fa fa-map-marker" aria-hidden="true"></i>address: Ukraine, Kiev</p>
+			</div>
+			<div class="logo wow fadeIn"><img src="img/main/footer-logo.png" alt=""></div>
+			<p class="wow fadeIn">© 2016 All rights reserved</p>
+		</div>
+	</footer>
+    <script src="scripts/vendor.min.js"></script>
+    <script src="scripts/main.min.js"></script>
+
+</body>
+
+</html>
