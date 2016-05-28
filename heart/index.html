@@ -18,14 +18,29 @@
 	<header>
         <div class="container menu">
             <div class="row">
-                <!-- <div class="menu"> -->
                 <div class="col-md-1">
                     <div class="logo">
                         <a href="#"><img src="img/logo.png" alt=""></a>
                     </div>
+                    <div id="hamburger">
+                        <span></span>
+                    </div>
+                    <nav class="mob-menu">
+                        <ul>
+                            <li><a href="#">Про нас</a></li>
+                            <li><a href="#">Лікування</a></li>
+                            <li><a href="#">Оздоровлення та діагностика</a></li>
+                            <li><a href="#">Навчання</a></li>
+                            <li><a href="#">Відгуки про нас</a></li>
+                            <li class="lang">
+                                <a href="#1" class="active-lang">Укр</a>
+                                <a href="#2">Eng</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
-                <div class="col-md-offset-4 col-md-7">
-                    <nav>
+                <div class="col-md-11">
+                    <nav class="main-menu">
                         <ul>
                             <li><a href="#">Про нас</a></li>
                             <li><a href="#">Лікування</a></li>
@@ -72,24 +87,117 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-offset-1 col-md-10">
-                    <div class="logos-outer">
-                        <div class="partners-logo">
-                            <img class="color-logo" src="img/1plus1.png" alt="">
-                        </div>
-                        <div class="partners-logo">
-                            <img class="color-logo" src="img/kievstar.png" alt="">
-                        </div>
-                        <div class="partners-logo">
-                            <img class="color-logo" src="img/privat.png" alt="">
-                        </div>
-                        <div class="partners-logo">
-                            <img class="color-logo" src="img/nova-poshta.png" alt="">
-                        </div>
-                        <div class="partners-logo">
-                            <img class="color-logo" src="img/oranta.png" alt="">
+                    <div class="swiper-container swiper-partners">
+                        <div class="swiper-wrapper logos-outer">
+                            <!-- <div class="logos-outer"> -->
+                            <div class="swiper-slide">
+                                    <div class="partners-logo">
+                                        <img class="color-logo" src="img/1plus1.png" alt="">
+                                    </div>
+                            </div>
+                            <div class="swiper-slide">
+                                    <div class="partners-logo">
+                                        <img class="color-logo" src="img/kievstar.png" alt="">
+                                    </div>
+                            </div>
+                            <div class="swiper-slide">
+                                    <div class="partners-logo">
+                                        <img class="color-logo" src="img/privat.png" alt="">
+                                    </div>
+                            </div>
+                            <div class="swiper-slide">
+                                    <div class="partners-logo">
+                                        <img class="color-logo" src="img/nova-poshta.png" alt="">
+                                    </div>
+                            </div>
+                            <div class="swiper-slide">
+                                    <div class="partners-logo">
+                                        <img class="color-logo" src="img/oranta.png" alt="">
+                                    </div>
+                            </div>
+                            </div>
+                            </div>
+<!--                             <div class="swiper-slide">
+                                <div class="logos-outer">
+                                    <div class="partners-logo">
+                                        <img class="color-logo" src="img/1plus1.png" alt="">
+                                    </div>
+                                    <div class="partners-logo">
+                                        <img class="color-logo" src="img/kievstar.png" alt="">
+                                    </div>
+                                    <div class="partners-logo">
+                                        <img class="color-logo" src="img/privat.png" alt="">
+                                    </div>
+                                    <div class="partners-logo">
+                                        <img class="color-logo" src="img/nova-poshta.png" alt="">
+                                    </div>
+                                    <div class="partners-logo">
+                                        <img class="color-logo" src="img/oranta.png" alt="">
+                                    </div>
+                                </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
+                <!-- ///////parnters slider///////// -->
+<!--                 <div class="swiper-container swiper-partners middle-width-partners">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="logos-outer">
+                                <div class="partners-logo">
+                                    <img class="color-logo" src="img/1plus1.png" alt="">
+                                </div>
+                                <div class="partners-logo">
+                                    <img class="color-logo" src="img/kievstar.png" alt="">
+                                </div>
+                                <div class="partners-logo">
+                                    <img class="color-logo" src="img/privat.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="logos-outer">
+                                <div class="partners-logo">
+                                    <img class="color-logo" src="img/1plus1.png" alt="">
+                                </div>
+                                <div class="partners-logo">
+                                    <img class="color-logo" src="img/kievstar.png" alt="">
+                                </div>
+                                <div class="partners-logo">
+                                    <img class="color-logo" src="img/privat.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- ///////parnters slider///////// -->
+
+                <!-- ///////parnters slider max-480///////// -->
+<!--                 <div class="swiper-container swiper-partners sm-width-partners">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="logos-outer">
+                                <div class="partners-logo">
+                                    <img class="color-logo" src="img/1plus1.png" alt="">
+                                </div>
+                                <div class="partners-logo">
+                                    <img class="color-logo" src="img/kievstar.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="logos-outer">
+                                <div class="partners-logo">
+                                    <img class="color-logo" src="img/1plus1.png" alt="">
+                                </div>
+                                <div class="partners-logo">
+                                    <img class="color-logo" src="img/kievstar.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- ///////parnters slider max-480///////// -->
             </div>
         </div>
     </section>
@@ -144,61 +252,76 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="cards">
-                                    <div class="personal-card">
-                                        <div class="photo"><img src="img/photo1.jpg" alt=""></div>
-                                        <h4>Надія Мельник</h4>
-                                        <h5>25 років</h5>
-                                        <p>Благодійний фонд "Медицина, Інноваціі, Розвиток" оплатив лікування для Надії Мельник</p>
+                                    <div class="outer">
+                                        <div class="personal-card">
+                                            <div class="photo"><img src="img/photo1.jpg" alt=""></div>
+                                            <h4>Надія Мельник</h4>
+                                            <h5>25 років</h5>
+                                            <p>Благодійний фонд "Медицина, Інноваціі, Розвиток" оплатив лікування для Надії Мельник</p>
+                                        </div>
                                     </div>
-                                    <div class="personal-card">
-                                        <div class="photo"><img src="img/photo2.jpg" alt=""></div>
-                                        <h4>Іван Карпенко</h4>
-                                        <h5>31 рік</h5>
-                                        <p>Благодійний фонд "Медицина, Інноваціі, Розвиток" оплатив курс реабілітації для Івана Карпенко.</p>
+                                    <div class="outer">
+                                        <div class="personal-card">
+                                            <div class="photo"><img src="img/photo2.jpg" alt=""></div>
+                                            <h4>Іван Карпенко</h4>
+                                            <h5>31 рік</h5>
+                                            <p>Благодійний фонд "Медицина, Інноваціі, Розвиток" оплатив курс реабілітації для Івана Карпенко.</p>
+                                        </div>
                                     </div>
-                                    <div class="personal-card">
-                                        <div class="photo"><img src="img/photo3.jpg" alt=""></div>
-                                        <h4>Андрій Хазаров</h4>
-                                        <h5>35 років</h5>
-                                        <p>Благодійний фонд "Медицина, Інноваціі, Розвиток" оплатив курс реабілітації для Андрія Хазарова.</p>
+                                    <div class="outer">
+                                        <div class="personal-card">
+                                            <div class="photo"><img src="img/photo3.jpg" alt=""></div>
+                                            <h4>Андрій Хазаров</h4>
+                                            <h5>35 років</h5>
+                                            <p>Благодійний фонд "Медицина, Інноваціі, Розвиток" оплатив курс реабілітації для Андрія Хазарова.</p>
+                                        </div>
                                     </div>
-                                    <div class="personal-card">
-                                        <div class="photo"><img src="img/photo4.jpg" alt=""></div>
-                                        <h4>Ольга Пильтяй</h4>
-                                        <h5>22 роки</h5>
-                                        <p>Благодійний фонд "Медицина, Інноваціі, Розвиток" оплатив лікування для Ольги Пильтяй</p>
+                                    <div class="outer">
+                                        <div class="personal-card">
+                                            <div class="photo"><img src="img/photo4.jpg" alt=""></div>
+                                            <h4>Ольга Пильтяй</h4>
+                                            <h5>22 роки</h5>
+                                            <p>Благодійний фонд "Медицина, Інноваціі, Розвиток" оплатив лікування для Ольги Пильтяй</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="cards">
-                                    <div class="personal-card">
-                                        <div class="photo"><img src="img/photo1.jpg" alt=""></div>
-                                        <h4>Надія Мельник</h4>
-                                        <h5>25 років</h5>
-                                        <p>Благодійний фонд "Медицина, Інноваціі, Розвиток" оплатив лікування для Надії Мельник</p>
+                                    <div class="outer">
+                                        <div class="personal-card">
+                                            <div class="photo"><img src="img/photo1.jpg" alt=""></div>
+                                            <h4>Надія Мельник</h4>
+                                            <h5>25 років</h5>
+                                            <p>Благодійний фонд "Медицина, Інноваціі, Розвиток" оплатив лікування для Надії Мельник</p>
+                                        </div>
                                     </div>
-                                    <div class="personal-card">
-                                        <div class="photo"><img src="img/photo2.jpg" alt=""></div>
-                                        <h4>Іван Карпенко</h4>
-                                        <h5>31 рік</h5>
-                                        <p>Благодійний фонд "Медицина, Інноваціі, Розвиток" оплатив курс реабілітації для Івана Карпенко.</p>
+                                    <div class="outer">
+                                        <div class="personal-card">
+                                            <div class="photo"><img src="img/photo2.jpg" alt=""></div>
+                                            <h4>Іван Карпенко</h4>
+                                            <h5>31 рік</h5>
+                                            <p>Благодійний фонд "Медицина, Інноваціі, Розвиток" оплатив курс реабілітації для Івана Карпенко.</p>
+                                        </div>
                                     </div>
-                                    <div class="personal-card">
-                                        <div class="photo"><img src="img/photo3.jpg" alt=""></div>
-                                        <h4>Андрій Хазаров</h4>
-                                        <h5>35 років</h5>
-                                        <p>Благодійний фонд "Медицина, Інноваціі, Розвиток" оплатив курс реабілітації для Андрія Хазарова.</p>
+                                    <div class="outer">
+                                        <div class="personal-card">
+                                            <div class="photo"><img src="img/photo3.jpg" alt=""></div>
+                                            <h4>Андрій Хазаров</h4>
+                                            <h5>35 років</h5>
+                                            <p>Благодійний фонд "Медицина, Інноваціі, Розвиток" оплатив курс реабілітації для Андрія Хазарова.</p>
+                                        </div>
                                     </div>
-                                    <div class="personal-card">
-                                        <div class="photo"><img src="img/photo4.jpg" alt=""></div>
-                                        <h4>Ольга Пильтяй</h4>
-                                        <h5>22 роки</h5>
-                                        <p>Благодійний фонд "Медицина, Інноваціі, Розвиток" оплатив лікування для Ольги Пильтяй</p>
+                                    <div class="outer">
+                                        <div class="personal-card">
+                                            <div class="photo"><img src="img/photo4.jpg" alt=""></div>
+                                            <h4>Ольга Пильтяй</h4>
+                                            <h5>22 роки</h5>
+                                            <p>Благодійний фонд "Медицина, Інноваціі, Розвиток" оплатив лікування для Ольги Пильтяй</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide">Slide 3</div>
                         </div>
                         <div class="swiper-pagination"></div>
                         <!-- <div class="swiper-scrollbar"></div> -->
@@ -208,7 +331,7 @@
         </div>
     </section>
 
-    <section id="certificates">
+    <section id="certificates" class="certificates">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -266,7 +389,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide">Slide 3</div>
                         </div>
                         <div class="swiper-pagination"></div>
                         <!-- <div class="swiper-scrollbar"></div> -->
@@ -387,12 +509,12 @@
     </section>
     <footer>
         <div class="container">
-            <div class="row">
-                <div class="col-md-offset-1 col-md-3">
+            <div class="row laptop">
+                <div class="col-sm-offset-1 col-sm-3">
                     <img src="img/logo-footer.png" alt="">
                     <p class="copyright">Copyright © 2016 Усі права захищені © БО БФ “МІР”</p>
                 </div>
-                <div class="col-md-4 text-center">
+                <div class="col-sm-offset-1 col-sm-3 text-center networks">
                     <p class="title">Додавайтесь до нас у соц мережах</p>
                     <div class="icons">
                         <a href="#"><img src="img/twitter.png" alt=""></a>
@@ -402,11 +524,35 @@
                     </div>
                     <p class="make">Зроблено з <img src="img/footer-heart.png" alt=""> у студії Космос</p>
                 </div>
-                <div class="col-md-3 col-md-offset-1">
+                <div class="col-sm-3 col-sm-offset-1 contacts">
                     <p class="title">Наші контакти:</p>
                     <p class="address">Київ, Україна<br>
                         Вулиця Ділова, ст. м. "Олімпійська"<br>
                         +38 0 800 505 534</p>
+                </div>
+            </div>
+            <div class="row mob-device">
+                <div class="footer-outer">
+                    <div class="col-md-offset-1 col-md-3 footer-logo">
+                        <img src="img/logo-footer.png" alt="">
+                    </div>
+                    <div class="col-md-3 col-md-offset-1 contacts">
+                        <p class="title">Наші контакти:</p>
+                        <p class="address">Київ, Україна<br>
+                            Вулиця Ділова, ст. м. "Олімпійська"<br>
+                            +38 0 800 505 534</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center networks">
+                    <p class="title">Додавайтесь до нас у соц мережах</p>
+                    <div class="icons">
+                        <a href="#"><img src="img/twitter.png" alt=""></a>
+                        <a href="#"><img src="img/fb.png" alt=""></a>
+                        <a href="#"><img src="img/google.png" alt=""></a>
+                        <a href="#"><img src="img/vk.png" alt=""></a>
+                    </div>
+                    <p class="make">Зроблено з <img src="img/footer-heart.png" alt=""> у студії Космос</p>
+                    <p class="copyright">Copyright © 2016 Усі права захищені © БО БФ “МІР”</p>
                 </div>
             </div>
         </div>
